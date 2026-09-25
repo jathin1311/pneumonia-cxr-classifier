@@ -1,0 +1,47 @@
+{
+  "command": "all",
+  "arguments": {
+    "command": "all",
+    "data_dir": "data",
+    "size": 28,
+    "npz": null,
+    "results_dir": "results",
+    "c_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 30,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 5,
+    "max_rotation": 10.0,
+    "dropout": 0.3,
+    "device": "auto",
+    "n_bootstrap": 2000,
+    "ci_level": 0.95,
+    "bootstrap_seed": 0
+  },
+  "environment": {
+    "utc_time": "20260925-000549",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "torch": "2.14.0",
+      "torchvision": "0.29.0",
+      "matplotlib": "3.11.2",
+      "medmnist": "3.0.2"
+    },
+    "git_commit": null
+  }
+}

@@ -1,0 +1,4 @@
+split,normal,pneumonia,total,pneumonia_fraction
+train,1214,3494,4708,0.742
+val,135,389,524,0.742
+test,234,390,624,0.625
